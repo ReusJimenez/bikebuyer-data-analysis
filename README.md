@@ -44,3 +44,7 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactar a:
 - **Nombre:** Roberto Edmundo Eustaquio Jiménez  
 - **Email:** [reusjimenez2002@gmail.com](mailto:reusjimenez2002@gmail.com)  
 - **GitHub:** [https://github.com/ReusJimenez](https://github.com/ReusJimenez)  
+
+## 📜 **Licencia**  
+
+Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más información.  
