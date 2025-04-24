@@ -34,14 +34,16 @@ El objetivo de este notebook es **preparar y explorar el dataset BikeBuyers** pa
 - Columnas originales: 31 (tras limpieza: 13)  
 - Variable objetivo: `BikeBuyer` (0 = No compró bicicleta, 1 = Sí compró bicicleta)  
 
-## 🧹 **Limpieza y Transformación de Datos**  
+## 📌 **Principales acciones realizadas**  
+
+### 🧹 **Limpieza y Transformación de Datos**  
 
 - Eliminación de columnas con datos irrelevantes o redundantes  
 - Unificación de columnas en diferentes idiomas (`Education`, `Occupation`)  
 - Cálculo de edad estimada a partir de la fecha de nacimiento  
 - Revisión y tratamiento de valores nulos  
 
-## 📊 **Análisis Exploratorio de Datos (EDA)**  
+### 📊 **Análisis Exploratorio de Datos (EDA)**  
 
 Se analizaron variables clave a través de visualizaciones y estadísticas:
 
@@ -50,7 +52,7 @@ Se analizaron variables clave a través de visualizaciones y estadísticas:
 - **Cantidad de Autos Propios**: Lo más común es tener entre 1 y 2 autos.  
 - **Distancia al trabajo**: Predominan distancias cortas (0–1 milla).  
 
-## ❓ **Análisis Dirigido por Preguntas**  
+### ❓ **Análisis Dirigido por Preguntas**  
 
 1. **¿Cuál es la edad promedio de los compradores y no compradores?**  
    - Compradores: ~42.4 años | No compradores: ~39.9 años  
@@ -65,7 +67,7 @@ Se analizaron variables clave a través de visualizaciones y estadísticas:
 4. **¿Los compradores tienen más autos que los no compradores?**  
    - En promedio, sí. Podría estar relacionado con mayor poder adquisitivo.  
 
-## ✅ **Conclusiones Clave**  
+### ✅ **Conclusiones Clave**  
 
 - El dataset fue limpiado y transformado para análisis futuro o modelado predictivo  
 - Se identificaron patrones relevantes: la edad, cantidad de hijos y posesión de autos pueden influir en la decisión de compra  
