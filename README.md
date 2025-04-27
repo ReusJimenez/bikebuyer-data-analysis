@@ -1,94 +1,27 @@
-# 🚴‍♂️ **BikeBuyer – Data Wrangling & EDA**  
+# 🚴‍♂️ BikeBuyers – Data Wrangling & EDA
 
-Este repositorio contiene un notebook enfocado en la **limpieza**, **transformación** y **análisis exploratorio de datos (EDA)** del dataset *Bike Buyers*. También incluye un conjunto de preguntas exploratorias orientadas a comprender mejor el perfil de los compradores de bicicletas.
+Este notebook presenta un análisis del dataset *BikeBuyers*, centrado en la limpieza, transformación y análisis exploratorio de datos (EDA). Además, incluye un conjunto de preguntas y conclusiones orientadas a comprender mejor el perfil de los compradores de bicicletas.
 
-## 📁 **Contenido del Notebook**  
+## 🎯 Objetivo del Análisis
 
-- Carga del dataset y exploración inicial  
-- Limpieza profunda de datos (valores faltantes, columnas irrelevantes)  
-- Transformación de variables categóricas y derivadas  
-- Análisis estadístico y visual de variables clave  
-- Respuestas a preguntas orientadas al comportamiento de compra  
+- Asegurar calidad de datos eliminando valores nulos y columnas irrelevantes.
+- Transformar variables para facilitar análisis.
+- Explorar patrones entre características de clientes y la compra de bicicletas.
 
-## 🎯 **Objetivo del Análisis**  
+## 📌 Acciones Principales
 
-El objetivo de este notebook es **preparar y explorar el dataset BikeBuyers** para dejarlo en condiciones óptimas para análisis posteriores o modelos de machine learning. Esto incluye:
+- Eliminación de columnas irrelevantes y consolidación de variables multilingües.
+- Creación de la variable `Age` y transformación de educación y ocupación.
+- Visualización de distribuciones de ingreso, hijos, autos y distancia al trabajo.
+- Análisis dirigido para entender el perfil de los compradores de bicicletas.
 
-- Eliminar columnas irrelevantes o con valores nulos excesivos  
-- Unificar columnas multilingües y generar nuevas variables  
-- Explorar relaciones entre ingreso, hijos, autos y compra de bicicletas  
-- Guiar el análisis mediante preguntas clave que ayuden a perfilar a los compradores  
+## ✅ Conclusiones
 
-## 🧰 **Tecnologías Utilizadas**  
+- Los compradores tienen en promedio mayor edad (≈ 42.4 años) que los no compradores (≈ 39.9 años).
+- No hay diferencia clara en ingresos anuales entre compradores y no compradores de bicicletas.
+- Los clientes con menos hijos son más propensos a comprar bicicletas.
+- Los compradores poseen ligeramente más autos que los no compradores.
 
-- Python 3  
-- Pandas  
-- Seaborn  
-- Matplotlib  
-- Jupyter Notebook  
+## 📩 Contacto
 
-## 📁 **Dataset Utilizado**  
-
-- Fuente: Dataset Bike Buyers  
-- Formato: Excel
-- Columnas originales: 31 (tras limpieza: 13)  
-- Variable objetivo: `BikeBuyer` (0 = No compró bicicleta, 1 = Sí compró bicicleta)  
-
-## 📌 **Principales acciones realizadas**  
-
-### 🧹 **Limpieza y Transformación de Datos**  
-
-- Eliminación de columnas con datos irrelevantes o redundantes  
-- Unificación de columnas en diferentes idiomas (`Education`, `Occupation`)  
-- Cálculo de edad estimada a partir de la fecha de nacimiento  
-- Revisión y tratamiento de valores nulos  
-
-### 📊 **Análisis Exploratorio de Datos (EDA)**  
-
-Se analizaron variables clave a través de visualizaciones y estadísticas:
-
-- **Ingreso Anual**: La mayoría se concentra entre $20,000 y $70,000, con una distribución sesgada hacia ingresos más altos.  
-- **Total de Hijos**: La mayoría no tiene hijos. A mayor número de hijos, menor frecuencia.  
-- **Cantidad de Autos Propios**: Lo más común es tener entre 1 y 2 autos.  
-- **Distancia al trabajo**: Predominan distancias cortas (0–1 milla).  
-
-### ❓ **Análisis Dirigido por Preguntas**  
-
-1. **¿Cuál es la edad promedio de los compradores y no compradores?**  
-   - Compradores: ~42.4 años | No compradores: ~39.9 años  
-   - → Los compradores tienden a ser ligeramente mayores.  
-
-2. **¿Qué relación hay entre ingreso anual y compra de bicicleta?**  
-   - No hay diferencia drástica, aunque los ingresos de compradores muestran más variabilidad.  
-
-3. **¿Hay alguna tendencia entre cantidad de hijos y ser comprador?**  
-   - Clientes con 0 o 1 hijo son más propensos a comprar bicicletas.  
-
-4. **¿Los compradores tienen más autos que los no compradores?**  
-   - En promedio, sí. Podría estar relacionado con mayor poder adquisitivo.  
-
-### ✅ **Conclusiones Clave**  
-
-- El dataset fue limpiado y transformado para análisis futuro o modelado predictivo  
-- Se identificaron patrones relevantes: la edad, cantidad de hijos y posesión de autos pueden influir en la decisión de compra  
-- Aunque el ingreso no muestra diferencias marcadas, sí lo hacen variables como hijos y autos  
-- El análisis revela perfiles potenciales de clientes compradores que pueden ser útiles en campañas dirigidas  
-
-## 🔜 **Próximos Pasos**  
-
-- Escalado de variables y codificación adecuada para modelos de machine learning  
-- Entrenamiento de modelos supervisados de clasificación  
-- Evaluación de métricas como F1-score, AUC y matriz de confusión  
-
-## 📩 **Contacto**  
-
-Si tienes alguna pregunta o sugerencia, no dudes en contactar a:
-
-- **Nombre:** Roberto Edmundo Eustaquio Jiménez  
-- **Email:** [reusjimenez2002@gmail.com](mailto:reusjimenez2002@gmail.com)  
-- **GitHub:** [https://github.com/ReusJimenez](https://github.com/ReusJimenez)  
-- **LinkedIn:** [https://linkedin.com/in/roberto-eustaquio/](https://linkedin.com/in/roberto-eustaquio/)  
-
-## 📜 **Licencia**  
-
-Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más información.
+Si tienes alguna pregunta o sugerencia, contáctame por [LinkedIn](https://linkedin.com/in/roberto-eustaquio/)
