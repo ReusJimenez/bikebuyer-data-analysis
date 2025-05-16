@@ -1,6 +1,6 @@
-# 🚴‍♂️ Análisis de Datos – Clientes Potenciales (Dataset Bikebuyers)
+# 🚴‍♂️ Análisis de Datos – Clientes Potenciales (Dataset Bikebuyer)
 
-Este notebook presenta un análisis del dataset *BikeBuyers*, centrado en la limpieza, transformación y análisis exploratorio de datos (EDA). Además, incluye un conjunto de preguntas y conclusiones orientadas a comprender mejor el perfil de los compradores de bicicletas.
+Este notebook presenta un análisis del dataset *BikeBuyer*, centrado en la limpieza, transformación y análisis exploratorio de datos (EDA). Además, incluye un conjunto de preguntas y conclusiones orientadas a comprender mejor el perfil de los compradores de bicicletas.
 
 ## 🎯 Objetivos
 
